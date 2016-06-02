@@ -57,7 +57,7 @@ top: 0;}
 .imgindex{max-width:100%;display:block;margin:0 auto;}
 .contentindex{width:98%; display:block;margin:0 auto;}
 .cntindx{width:80%; font:normal 18px arial; color:#000044;display:block;margin:0 auto; text-align:center;vertical-align:middle;}
-.lgbutton{width:80%;height:7%;background:#000044;display:block;margin-top:1.5%;margin-left:auto;margin-right:auto;vertical-align:middle;
+.lgbutton{width:80%;height:40px;background:#000044;display:block;margin-top:1.5%;margin-left:auto;margin-right:auto;vertical-align:middle;
 background: -webkit-linear-gradient(#000044, #000099); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#000044, #000099); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#000044, #000099); /* For Firefox 3.6 to 15 */
