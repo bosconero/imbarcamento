@@ -78,7 +78,8 @@ var cosalfa1=Math.cos(alfa1);
 var alfa2=1-cosalfa1;
 var imb1=(raggio*alfa2)*100;
 var imbarcafinale=imb1-((100-(spess*2.35)*imb1)/100);
-var imbarcamfinale=Math.round(imbarcafinale*100)/100;
+var imbarcamezzo= imbarcafinale-(imbarcafinale*40/100)
+var imbarcamfinale=Math.round(imbarcamezzo*100)/100;
 var imbarcamentot = document.getElementById('imbarcamentot');
 if (barvap=="no"){
 imbarcamentot.innerHTML="La piastra di calcestruzzo subir&agrave; un imbarcamento tra il centro e l'incrocio dei giunti di cm <span style='font:bold 18px arial;color:#ff2200;'>"+imbarcamfinale+"  </span>";
