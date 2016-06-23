@@ -81,10 +81,10 @@ var imbarcafinale=imb1-((100-(spess*2.35)*imb1)/100);
 var imbarcamfinale=Math.round(imbarcafinale*100)/100;
 var imbarcamentot = document.getElementById('imbarcamentot');
 if (barvap=="no"){
-imbarcamentot.innerHTML="La piastra di calcestruzzo subir&agrave; un imbarcamento tra il centro e l'incrocio dei giunti di cm <span style='font:bold 18px arial;color:#ff2200;'>"+imbarcamfinale+"  </span>";
+imbarcamentot.innerHTML="La piastra di calcestruzzo subir&agrave; un imbarcamento tra il centro e l'incrocio dei giunti di mm <span style='font:bold 18px arial;color:#ff2200;'>"+imbarcamfinale+"  </span>";
 }else if (barvap=="si"){
 var imbavapo = Math.round((imbarcafinale+(imbarcafinale*15/100))*100)/100;
-imbarcamentot.innerHTML="nel caso il pavimento sia su un supporto impermeabile o foglio di polietilene  l'imbarcamento tra il centro e l'incrocio dei giunti sar&agrave; di cm <span style='font:bold 20px arial;color:#ff2200;'>"+imbavapo+"  </span>";
+imbarcamentot.innerHTML="nel caso il pavimento sia su un supporto impermeabile o foglio di polietilene  l'imbarcamento tra il centro e l'incrocio dei giunti sar&agrave; di mm <span style='font:bold 20px arial;color:#ff2200;'>"+imbavapo+"  </span>";
 }
 if (barvap=="no"){
     var imbares = imbarcamfinale;
@@ -98,7 +98,7 @@ ctx.drawImage(img, 0, -20);
 ctx.font="18px arial";
 ctx.fillStyle = "#000040";
 ctx.textAlign = "center";
-ctx.fillText("A = "+imbares+" cm", 235, 140)
+ctx.fillText("A = "+imbares+" mm", 235, 140)
  
 }
 function init(){
