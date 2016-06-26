@@ -91,6 +91,15 @@ if (barvap=="no"){
     } else if(barvap=="si"){
     imbares = imbavapo;
     }
+var alert=document.getElementById('alertimbarca')  ;
+if (imbares<2.5){
+alert.innerHTML="L'imbarcamento &egrave; nella norma.";
+}else if (imbares>5){
+alert.innerHTML="<span style='font-weigth:bold;color:#ff2200;'>IMBARCAMENTO ECCESSIVO. E' NECESSARIO INTERVENTO DI RIPARAZIONE</span>";
+}else{
+alert.innerHTML="L'imbarcamento eccede la norma, decidere con il committente se eseguire o meno l'intervento di riparazione.";
+}  
+    
 var canvas = document.getElementById("imbarcamento");
 var ctx=canvas.getContext("2d");
 var img=document.getElementById('imbpic');
