@@ -16,7 +16,7 @@ body{margin:0;max-width:100%;}
 
   border:0.125em solid #ddd;
   box-shadow:0.3125em 0.3125em 0.3125em #888888; 
-  margin:1.5em 2% 0.3125em 2% ;
+  margin:40px 2% 0 2% ;
  }   
  .insalone{width:60%;background-color:#fff;
 
@@ -41,9 +41,9 @@ body{margin:0;max-width:100%;}
           flex-flow: column;
          justify-content:center;
           align-content:space-between;
-          display:block;margin:auto;}
-.boxtitle{max-width:98%;padding:0.3125em 1em 0.9375em 1em;display:block;margin:0 auto;height:10%;background-color:#000040;}
-.centralindex{max-width:98%;display:block;margin:auto auto;min-height:60%}
+          display:block;margin:15px auto;}
+.boxtitle{max-width:98%;padding:5px 1em 15px 1em;display:block;margin:0 auto;height:10%;background-color:#000040;}
+.centralindex{max-width:98%;display:block;margin:15px auto;min-height:60%}
 .indeximage{min-height:60%; vertical-align:middle;border:none;}
 .indeximage img{display:block;margin:0 auto;position: relative;
 bottom: 0;
@@ -52,11 +52,11 @@ margin: auto;
 right: 0;
 top: 0.625em;}
 .entra img{border:none;}
-.buttonindex{width:100%;position:fixed;bottom:0em;display:block;margin-left:auto;margin-bottom:0;margin-right:auto; height:10%;vertical-align:middle;text-align:center;border:none;box-shadow:none;background-color:transparent;}
+.buttonindex{width:100%;position:fixed;bottom:0em;display:block;margin-left:auto;margin-bottom:5px;margin-right:auto; height:10%;vertical-align:middle;text-align:center;border:none;box-shadow:none;background-color:transparent;}
 .titleindex{font:bold 1.375em arial;color:#fff;background-color:#000044;text-align:center;}
 .indeximage{width:98%;display:block;margin:0 auto;}
 .imgindex{max-width:100%;display:block;margin:0 auto;}
-.contentindex{width:98%; display:block;margin:0 auto;}
+.contentindex{width:98%; display:block;margin:15px auto;}
 .cntindx{width:80%; font:normal 1.125em arial; color:#000044;display:block;margin:0 auto; text-align:center;vertical-align:middle;}
 .lgbutton{width:80%;height:3.125em;background:#000044;display:block;margin-top:1.5%;margin-left:auto;margin-right:auto;vertical-align:middle;
 background: -webkit-linear-gradient(#000044, #000099); /* For Safari 5.1 to 6.0 */
