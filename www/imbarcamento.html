@@ -24,6 +24,22 @@ Questo programma di calcolo consente al tecnico di determinare a priori il solle
   </div>
   <div id="pinserimento">
   <div id="inserimento">
+           <div class="ins">
+       <div class="titoloins">
+       <label>Classe  cls</label>
+       </div>
+       <div class="inputins"> 
+       <select id="classesp">
+       <option value="XC1"> XC1 </option>
+       <option value="XC2"> XC2 </option>
+       <option value="XC3"> XC3 </option>
+       <option value="XC4"> XC4 </option>
+       <option value="XF3"> XF3 </option>
+       <option value="XF4"> XF4 </option>
+       </select>
+       </div>
+       </div>
+  
        <div class="ins">
        <div class="titoloins">
       <label for="rck">R<sub>ck</sub> N/mm<sup>2</sup> </label>
@@ -62,18 +78,7 @@ Questo programma di calcolo consente al tecnico di determinare a priori il solle
        </div>
        </div>
        
-        <div class="ins">
-       <div class="titoloins">
-       <label>Classe  cls</label>
-       </div>
-       <div class="inputins"> 
-       <select id="classesp">
-       <option value="0.6"> XC2 </option>
-       <option value="0.55"> XC3 </option>
-       <option value="0.5"> XC4 </option>
-       </select>
-       </div>
-       </div>
+     
        
        <div class="ins">
        <div class="titoloins">
@@ -136,6 +141,7 @@ Questo programma di calcolo consente al tecnico di determinare a priori il solle
 <br />
 <div id="scelta1">
  <button class="bottoner" id="ripeti" onclick="ripeti()">Ripeti</button>
+  <button class="bottonev" id='inviamail' onclick="inviamail()" style="text-align:center;">Invia</button>
 
 </div>
  </div>
